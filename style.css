@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+::root{
+    --corfundo: blueviolet;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav{
+    align-items: center;
+    display: flex;
+}
+
+.div1{
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+}
+
+header img{
+    margin-right: 10px;
+    width: 50px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    margin-top: 5px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: var(--corfundo);
+    transition-duration: 0.2s; 
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.divtema{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.divtema h4{
+    margin-right: 10px;
+}
+
+.buttonbuy a{
+    font-size: 11pt;
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.buttonbuy a:hover{
+    background-color: rgb(104, 34, 170);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+#buttontema{
+    
+    margin-right: 10px;
+    width: 50px;
+    height: 25px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 50px;
+}
+
+#bolinhatema{
+    margin-left: 2.5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
